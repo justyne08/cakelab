@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Build Your Own Cake</h1>
+    <div class="cake-builder">
+        <div class="options">
+            <h2>Choose Your Cake</h2>
+            <label for="flavor">Flavor:</label>
+            <select id="flavor">
+                <option value="vanilla">Vanilla</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="red-velvet">Red Velvet</option>
+            </select>
+
+            <label for="size">Size:</label>
+            <select id="size">
+                <option value="small">Small (6 inches)</option>
+                <option value="medium">Medium (8 inches)</option>
+                <option value="large">Large (10 inches)</option>
+            </select>
+
+            <label for="frosting">Frosting:</label>
+            <select id="frosting">
+                <option value="buttercream">Buttercream</option>
+                <option value="cream-cheese">Cream Cheese</option>
+                <option value="ganache">Ganache</option>
+            </select>
+
+            <button id="build-cake">Build Cake</button>
+        </div>
+
+        <div class="preview">
+            <h2>Your Cake Preview</h2>
+            <div id="cake-preview"></div>
+        </div>
+    </div>
+
+    </body>
+</html>

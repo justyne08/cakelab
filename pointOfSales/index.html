@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeLab Point of Sales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <header
+    <h1>CakeLab Point of Sales</h1>
+    <div class="pos-system">
+            <label class="sr-only" for="searchInput">Search products</label>
+            <input id="searchInput" class="input" type="search" 
+            placeholder="Search products (e.g., croissant, chocolate, bread)..." autocomplete="off">
+             
+        <nav class="topbar__actions" aria-label="Quick pages">
+            <a class="btn btn--ghost" href="inventory.html" aria-disabled="true" title="Placeholder link (page not created yet)">Inventory</a>
+            <a class="btn btn--ghost" href="sales.html" aria-disabled="true" title="Placeholder link (page not created yet)">Sales</a>
+        </nav>
+    </div>
+    </header>
+
+  <!--
+    <main class="main" role="main">
+            <section class="panel">
+                <div class="panel__header">
+                    <h2 class="panel__title">Products</h2>
+                    <div class="panel__meta" id="resultsMeta" aria-live="polite"></div>
+                </div>
+            
+               Section 3 
+                <div class="tabs" role="tablist" aria-label="Product categories" id="categoryTabs"></div>
+
+                Section 4
+                <div class="products" id="productsGrid" aria-label="Product cards"></div>
+            </section>
+        </main>
+
+        Section 5: Cart / Basket
+        <aside class="cart" aria-label="Basket">
+            <section class="panel panel--sticky">
+                <div class="panel__header">
+                    <h2 class="panel__title">Basket</h2>
+                    <button class="btn btn--ghost btn--sm" id="voidBtn" type="button">Void</button>
+                </div>
+
+                <div class="cart__items" id="cartItems" aria-label="Basket items"></div>
+
+                <div class="cart__summary" aria-label="Totals">
+                    <div class="summary-row">
+                        <div class="summary-row__label">Total</div>
+                        <div class="summary-row__value" id="totalAmount">₱0.00</div>
+                    </div>
+                </div>
+
+                <div class="cart__actions">
+                    <button class="btn btn--danger" id="clearBtn" type="button">Void / Clear</button>
+                    <button class="btn btn--primary" id="checkoutBtn" type="button" disabled>Proceed to payment</button>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+     
+    <div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" aria-hidden="true">
+        <div class="modal__backdrop" data-close="true"></div>
+        <div class="modal__card" role="document">
+            <div class="modal__header">
+                <h3 class="modal__title" id="checkoutTitle">Payment</h3>
+                <button class="icon-btn" type="button" aria-label="Close payment form" data-close="true">✕</button>
+            </div>
+
+            <form class="modal__body" id="paymentForm">
+                <div class="form-grid">
+                    <div class="field">
+                        <label class="label" for="payTotal">Total</label>
+                        <input class="input" id="payTotal" type="text" readonly>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="amountGiven">Amount given</label>
+                        <input class="input" id="amountGiven" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00" required>
+                        <div class="hint" id="amountHint" aria-live="polite"></div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="changeDue">Change</label>
+                        <input class="input" id="changeDue" type="text" readonly>
+                    </div>
+                </div>
+
+                <div class="modal__footer">
+                    <button class="btn btn--ghost" type="button" data-close="true">Cancel</button>
+                    <button class="btn btn--primary" id="completeBtn" type="submit" disabled>Complete payment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+-->
+</body>
+</html>
